@@ -11,6 +11,7 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/todo-d
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
+  'https://todo-frontend-mu-pearl.vercel.app',
 ];
 
 if (process.env.FRONTEND_URL) {
